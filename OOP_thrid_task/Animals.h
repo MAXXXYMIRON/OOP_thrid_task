@@ -9,6 +9,8 @@ class Animals
 public:
 	Animals();
 	~Animals();
+	//Срок жизни
+	float OldYear;
 	//Среда обиатания
 	virtual string Habitat() = 0;
 	//Общая характеристика
@@ -17,5 +19,12 @@ public:
 	virtual string TypeBreath() = 0;
 	//Тип размножения
 	virtual string TypeBreeding() = 0;
+	//Тип питания
+	virtual string TypeFood() = 0;
+};
+
+enum ERRORS
+{
+
 };
 

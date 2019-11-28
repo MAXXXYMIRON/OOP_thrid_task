@@ -2,7 +2,7 @@
 #include "Animals.h"
 
 //Мшанки
-class Bryozoans : Animals
+class Bryozoans : public Animals
 {
 public:
 	Bryozoans();
@@ -10,5 +10,32 @@ public:
 	
 	//Тип зооидов
 	virtual string TypeZooids() = 0;
+};
+
+
+//Глоторотые
+class Swallowed : public Bryozoans
+{
+public:
+	Swallowed();
+	~Swallowed();
+};
+
+
+//Покрыторотые
+class Angry : public Bryozoans
+{
+public:
+	Angry();
+	~Angry();
+};
+
+
+//Узкоротые
+class Narrow : public Bryozoans
+{
+public:
+	Narrow();
+	~Narrow();
 };
 

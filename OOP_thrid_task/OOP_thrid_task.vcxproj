@@ -116,14 +116,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animals.cpp" />
+    <ClCompile Include="Arthropods.cpp" />
     <ClCompile Include="Bryozoans.cpp" />
+    <ClCompile Include="Coelenterates.cpp" />
     <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="Mollusks.cpp" />
     <ClCompile Include="Sponges.cpp" />
+    <ClCompile Include="Worms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animals.h" />
+    <ClInclude Include="Arthropods.h" />
     <ClInclude Include="Bryozoans.h" />
+    <ClInclude Include="Coelenterates.h" />
+    <ClInclude Include="Mollusks.h" />
     <ClInclude Include="Sponges.h" />
+    <ClInclude Include="Worms.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
