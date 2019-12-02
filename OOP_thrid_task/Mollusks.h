@@ -9,34 +9,8 @@ public:
 	~Mollusks();
 
 	//Раковина
-	virtual string Sink() = 0;
+	string Sink;
 };
 
-
-//Двустворчатые
-class Bivalve : public Mollusks
-{
-public:
-	Bivalve();
-	~Bivalve();
-};
-
-
-//Брюхоногие
-class Gastropods : public Mollusks
-{
-public:
-	Gastropods();
-	~Gastropods();
-};
-
-
-//Головоногие
-class Cephalopods : public Mollusks
-{
-public:
-	Cephalopods();
-	~Cephalopods();
-};
 
 

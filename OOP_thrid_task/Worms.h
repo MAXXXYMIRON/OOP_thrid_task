@@ -4,40 +4,14 @@
 //Черви
 class Worms : public Animals
 {
+	//Длина
+	float Length;
 public:
 	Worms();
 	~Worms();
-protected:
-	//Длина
-	float Length;
-	virtual float GetLength();
-	virtual void SetLength(float Len);
+
+	float GetLength();
+	void SetLength(float length);
 };
 
-
-//Плоские черви
-class FlatWorms : public Worms
-{
-public:
-	FlatWorms();
-	~FlatWorms();
-};
-
-
-//Круглые черви
-class RoundWorms : public Worms
-{
-public:
-	RoundWorms();
-	~RoundWorms();
-};
-
-
-//Кольчатые черви
-class Annelids : public Worms
-{
-public:
-	Annelids();
-	~Annelids();
-};
 

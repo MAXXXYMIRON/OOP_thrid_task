@@ -9,35 +9,9 @@ public:
 	~Arthropods();
 
 	//Дыхательная система
-	virtual string RespiratorySystem() = 0;
+	string RespiratorySystem;
 	//Структура тела
-	virtual string BodyStructure() = 0;
+	string BodyStructure;
 };
 
-
-//Насекомые
-class Isects : public Arthropods
-{
-public:
-	Isects();
-	~Isects();
-};
-
-
-//Ракообразные
-class Crustaceans : public Arthropods
-{
-public:
-	Crustaceans();
-	~Crustaceans();
-};
-
-
-//Паукообразные
-class Arachnids : public Arthropods
-{
-public:
-	Arachnids();
-	~Arachnids();
-};
 

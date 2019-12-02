@@ -4,42 +4,21 @@
 //Губки
 class Sponges : public Animals
 {
+	//Глубина
+	float WaterDepth;
 public:
 	Sponges();
 	~Sponges();
 	
 	//Тип вод
-	virtual string TypeOfWater() = 0;
+	string TypeOfWater;
+
 	//Глубина вод
-	virtual string WaterDepth() = 0;
+	void SetWaterDepth(float waterDepth);
+	//Глубина вод
+	float GetWaterDepth();
+
 	//Тип поверхности
-	virtual string SurfaceType() = 0;
-};
-
-
-//Известковые губки
-class LimeSponges : public Sponges
-{
-public:
-	LimeSponges();
-	~LimeSponges();
-};
-
-
-//Стеклянные губки
-class GlassSponges : public Sponges
-{
-public:
-	GlassSponges();
-	~GlassSponges();
-};
-
-
-//Обыкновенные губки
-class OrdinarySponges : public Sponges
-{
-public:
-	OrdinarySponges();
-	~OrdinarySponges();
+	string SurfaceType;
 };
 

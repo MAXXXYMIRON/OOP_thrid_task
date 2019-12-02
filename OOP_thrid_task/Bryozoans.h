@@ -9,33 +9,9 @@ public:
 	~Bryozoans();
 	
 	//Тип зооидов
-	virtual string TypeZooids() = 0;
+	string TypeZooids;
+	//Тип группы зооидов
+	string TypeGroupZooids;
 };
 
-
-//Глоторотые
-class Swallowed : public Bryozoans
-{
-public:
-	Swallowed();
-	~Swallowed();
-};
-
-
-//Покрыторотые
-class Angry : public Bryozoans
-{
-public:
-	Angry();
-	~Angry();
-};
-
-
-//Узкоротые
-class Narrow : public Bryozoans
-{
-public:
-	Narrow();
-	~Narrow();
-};
 
