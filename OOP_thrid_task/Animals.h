@@ -10,6 +10,7 @@ class Animals
 	float OldYear;
 public:
 	Animals();
+	Animals(string name, float oldYear, string typeAnimal, string view, string typeFood);
 	~Animals();
 
 	//Имя 
@@ -21,13 +22,13 @@ public:
 	//Тип питания
 	string TypeFood;
 
-	string GetOldYear();
-	void SetOldYear(string oldYear);
+	float GetOldYear();
+	void SetOldYear(float oldYear);
 
 	//Среда обиатания
 	virtual string Habitat() = 0;
 	//Общая характеристика
-	virtual string GenerakCharacteristics() = 0;
+	virtual string GeneralCharacteristics() = 0;
 	//Образ жизни
 	virtual string LifeStyle() = 0;
 	//Тип дыхания
@@ -36,8 +37,14 @@ public:
 	virtual string TypeBreeding() = 0;
 };
 
+
+
 enum ERRORS
 {
-
+	IncorrectNumberOldYear,//Некрректное кол-во лет
+	IncorrectLengthWorm,//Некорректная длина червя
+	IncorrectDepthHabitat,//Некорректная глубина обитания
+	IncorrectSizesEchinoderms, //Некорректный размер иглокожого
+	IncorrectNumberRay //Некорректное кол-во лучей иглокожого
 };
 
