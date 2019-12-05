@@ -1,7 +1,7 @@
 #pragma once
 #include "Animals.h"
 
-//Кишечнополосатые
+//Кишечнополостные
 class Coelenterates : public Animals
 {
 public:

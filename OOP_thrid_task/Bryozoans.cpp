@@ -42,7 +42,7 @@ string Bryozoans::GeneralCharacteristics()
 //Образ жизни
 string Bryozoans::LifeStyle()
 {
-	return "Ведут прикреплённый образ жизни.";
+	return "Ведут прикреплённый образ жизни.\n Покрывают своими колониями камни, растения, затонувшие корабли.";
 }
 
 
