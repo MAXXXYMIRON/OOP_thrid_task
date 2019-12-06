@@ -1,0 +1,14 @@
+﻿  Animals.cpp
+  Arthropods.cpp
+  Bryozoans.cpp
+  Chordate.cpp
+  Coelenterates.cpp
+  Echinoderms.cpp
+  MAIN.cpp
+c:\users\knigh\desktop\oop\class_animal\oop_thrid_task\main.cpp(14): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+c:\users\knigh\desktop\oop\class_animal\oop_thrid_task\main.cpp(19): warning C4305: аргумент: усечение из "double" в "float"
+  Mollusks.cpp
+  Sponges.cpp
+  Worms.cpp
+  Создание кода...
+  OOP_thrid_task.vcxproj -> C:\Users\KNIGH\Desktop\OOP\Class_animal\x64\Debug\OOP_thrid_task.exe

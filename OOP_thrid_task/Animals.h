@@ -18,7 +18,7 @@ public:
 	//Тип животного
 	string TypeAnimal;
 	//Вид
-	string View;
+	string Species;
 	//Тип питания
 	string TypeFood;
 

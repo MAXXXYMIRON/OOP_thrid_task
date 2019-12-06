@@ -7,7 +7,7 @@ Animals::Animals()
 	Name = "";
 	SetOldYear(1);
 	TypeAnimal = "";
-	View = "";
+	Species = "";
 	TypeFood = "";
 }
 
@@ -16,7 +16,7 @@ Animals::Animals(string name, float oldYear, string typeAnimal, string view, str
 	Name = name;
 	SetOldYear(oldYear);
 	TypeAnimal = typeAnimal;
-	View = view;
+	Species = view;
 	TypeFood = typeFood;
 }
 

@@ -16,11 +16,11 @@ void main()
 
 	try
 	{
-		Worms EarthWorm = Worms("Дождевой червь", 0.5, "Беспозвоночные", "Кольчатые черви", "Питаются разлагающейся органикой", 10);
+		Worms EarthWorm = Worms("Дождевой червь", 0.1, "Беспозвоночные", "Кольчатые черви", "Питаются разлагающейся органикой", 10);
 		cout << EarthWorm.Name << endl;
 		cout << EarthWorm.GetOldYear() << " лет" << endl;
 		cout << EarthWorm.TypeAnimal << endl;
-		cout << EarthWorm.View << endl;
+		cout << EarthWorm.Species << endl;
 		cout << EarthWorm.TypeFood << endl;
 		cout << EarthWorm.Habitat() << endl;
 		cout << EarthWorm.GeneralCharacteristics() << endl;
@@ -34,7 +34,7 @@ void main()
 		cout << JellyFish.Name << endl;
 		cout << JellyFish.GetOldYear() << " лет" << endl;
 		cout << JellyFish.TypeAnimal << endl;
-		cout << JellyFish.View << endl;
+		cout << JellyFish.Species << endl;
 		cout << JellyFish.TypeFood << endl;
 		cout << JellyFish.Habitat() << endl;
 		cout << JellyFish.GeneralCharacteristics() << endl;
@@ -44,11 +44,11 @@ void main()
 		cout << JellyFish.TypeSymetry << endl;
 		cout << endl << endl;
 
-		Sponges BasketOfVenus = Sponges("Корзинка Венеры", 420000000, "Беспозвоночные", "Шестилучевая губка", "Питаются водрослями и планктоном", 450, "Морской", "Шельфовая зона материков и островов");
+		Sponges BasketOfVenus = Sponges("Корзинка Венеры", 420000000, "Беспозвоночные", "Шестилучевая губка", "Питаются микроорганизмами", 450, "Морской", "Шельфовая зона материков и островов");
 		cout << BasketOfVenus.Name << endl;
 		cout << BasketOfVenus.GetOldYear() << " лет" << endl;
 		cout << BasketOfVenus.TypeAnimal << endl;
-		cout << BasketOfVenus.View << endl;
+		cout << BasketOfVenus.Species << endl;
 		cout << BasketOfVenus.TypeFood << endl;
 		cout << BasketOfVenus.Habitat() << endl;
 		cout << BasketOfVenus.GeneralCharacteristics() << endl;
@@ -64,7 +64,7 @@ void main()
 		cout << Plumatella.Name << endl;
 		cout << Plumatella.GetOldYear() << " лет" << endl;
 		cout << Plumatella.TypeAnimal << endl;
-		cout << Plumatella.View << endl;
+		cout << Plumatella.Species << endl;
 		cout << Plumatella.TypeFood << endl;
 		cout << Plumatella.Habitat() << endl;
 		cout << Plumatella.GeneralCharacteristics() << endl;
@@ -73,6 +73,84 @@ void main()
 		cout << Plumatella.TypeBreeding() << endl;
 		cout << Plumatella.TypeZooids << endl;
 		cout << Plumatella.TypeGroupZooids << endl;
+		cout << endl << endl;
+
+		Arthropods Scorpion = Arthropods("Скорпион", 7, "Насекомое", "Паукообразные", "Пауки. многоножки, кузнечики, тараканы, ящерицы и грызуны", "Дыхательная система - представлена лёгкими", "Тело состоит из головогруди и длинного брюшка");
+		cout << Scorpion.Name << endl;
+		cout << Scorpion.GetOldYear() << " лет" << endl;
+		cout << Scorpion.TypeAnimal << endl;
+		cout << Scorpion.Species << endl;
+		cout << Scorpion.TypeFood << endl;
+		cout << Scorpion.Habitat() << endl;
+		cout << Scorpion.GeneralCharacteristics() << endl;
+		cout << Scorpion.LifeStyle() << endl;
+		cout << Scorpion.TypeBreath() << endl;
+		cout << Scorpion.TypeBreeding() << endl;
+		cout << Scorpion.RespiratorySystem << endl;
+		cout << Scorpion.BodyStructure << endl;
+		cout << endl << endl;
+
+		Mollusks Tridacna = Mollusks("Тридакна", 200, "Сердцевидки", "Двустворчатые моллюски", "В тканях обитают зооксантеллы, которые кормят моллюска.", "Раковины состоят из двух половинок, охватывающих тело с двух сторон");
+		cout << Tridacna.Name << endl;
+		cout << Tridacna.GetOldYear() << " лет" << endl;
+		cout << Tridacna.TypeAnimal << endl;
+		cout << Tridacna.Species << endl;
+		cout << Tridacna.TypeFood << endl;
+		cout << Tridacna.Habitat() << endl;
+		cout << Tridacna.GeneralCharacteristics() << endl;
+		cout << Tridacna.LifeStyle() << endl;
+		cout << Tridacna.TypeBreath() << endl;
+		cout << Tridacna.TypeBreeding() << endl;
+		cout << Tridacna.Sink << endl;
+		cout << endl << endl;
+
+		Echinoderms Valvatid = Echinoderms("Вальватид", 20, "Беспозвоночное", "Морская звезда", "Питается моллюсками", 5, 75, "Лучи - твердые, широкие, по краям расположены известковые пластины");
+		cout << Valvatid.Name << endl;
+		cout << Valvatid.GetOldYear() << " лет" << endl;
+		cout << Valvatid.TypeAnimal << endl;
+		cout << Valvatid.Species << endl;
+		cout << Valvatid.TypeFood << endl;
+		cout << Valvatid.Habitat() << endl;
+		cout << Valvatid.GeneralCharacteristics() << endl;
+		cout << Valvatid.LifeStyle() << endl;	
+		cout << Valvatid.TypeBreath() << endl;
+		cout << Valvatid.TypeBreeding() << endl;
+		cout << Valvatid.GetNumberRay() << " лучей	" << endl;
+		cout << Valvatid.GetSizes() << "см размер" << endl;
+		cout << Valvatid.TypeOfRay << endl;
+		cout << endl << endl;
+
+		Chordate Tiger = Chordate("Тигр", 15, "Млекопитающее", "Относится к кошачьим", "Едят мясо, иногда траву, орехи и фрукты", 
+			true, false, "Волосяной покров невысокий, довольно редкий", true, "Перемещаяется по земле", "Азия	");
+		cout << Tiger.Name << endl;
+		cout << Tiger.GetOldYear() << " лет" << endl;
+		cout << Tiger.TypeAnimal << endl;
+		cout << Tiger.Species << endl;
+		cout << Tiger.TypeFood << endl;
+		cout << Tiger.Habitat() << endl;
+		cout << Tiger.GeneralCharacteristics() << endl;
+		cout << Tiger.LifeStyle() << endl;
+		cout << Tiger.TypeBreath() << endl;
+
+		if (Tiger.Tail)
+			cout << "Хвост есть" << endl;
+		else
+			cout << "Хвоста нет" << endl;
+
+		if (Tiger.Gills)
+			cout << "Жаберные щели есть" << endl;
+		else
+			cout << "Жаберных щелей нет" << endl;
+
+		cout << Tiger.Skin << endl;
+
+		if (Tiger.Skeleton)
+			cout << "Скелет есть" << endl;
+		else
+			cout << "Скелета нет" << endl;
+
+		cout << Tiger.Movement << endl;
+		cout << Tiger.MainlandHabitat << endl;
 		cout << endl << endl;
 
 	}
